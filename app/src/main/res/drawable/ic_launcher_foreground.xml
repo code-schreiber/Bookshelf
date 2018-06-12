@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportHeight="108"
+    android:viewportWidth="108">
+
+    <!-- See Adaptive Icons -->
+    <!-- https://developer.android.com/guide/practices/ui_guidelines/icon_design_adaptive.html -->
+
+    <group
+        android:pivotX="-16"
+        android:pivotY="-16"
+        android:scaleX="2.5"
+        android:scaleY="2.5">
+
+        <path
+            android:fillColor="#ff263238"
+            android:pathData="M18,2H6c-1.1,0 -2,0.9 -2,2v16c0,1.1 0.9,2 2,2h12c1.1,0 2,-0.9 2,-2V4c0,-1.1 -0.9,-2 -2,-2zM6,4h5v8l-2.5,-1.5L6,12V4z" />
+    </group>
+</vector>
