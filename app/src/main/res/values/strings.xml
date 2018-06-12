@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Bookshelf</string>
+
+    <!-- BookshelfActivity -->
+    <string name="sort">sort</string>
+    <plurals name="number_of_books">
+        <item quantity="zero">No books</item>
+        <item quantity="one">%d book</item>
+        <item quantity="other">%d books</item>
+    </plurals>
+
+</resources>
