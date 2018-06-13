@@ -1,12 +1,12 @@
 object Versions {
     val gradle = "3.1.3"
-    val kotlin = "1.2.31"
+    val kotlin = "1.2.41"
     val realm = "5.3.0"
 
     val versionCode = 1
     val versionName = "0.0.1"
 
-    val minSdkVersion = 23 // TODO test on 23
+    val minSdkVersion = 23
     val targetSdkVersion = 28
     val compileSdkVersion = 28
 
