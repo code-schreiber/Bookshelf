@@ -2,6 +2,7 @@ package com.toolslab.bookshelf.di
 
 import android.app.Application
 import com.toolslab.bookshelf.Bookshelf
+import com.toolslab.bookshelf.view.bookshelf.BookshelfModule
 import dagger.BindsInstance
 import dagger.Component
 import dagger.android.AndroidInjector
@@ -11,7 +12,10 @@ import javax.inject.Singleton
 @Singleton
 @Component(
         modules = [
-            AndroidSupportInjectionModule::class
+            AndroidSupportInjectionModule::class,
+            AppModule::class,
+            ActivitiesBindingModule::class,
+            BookshelfModule::class
         ]
 )
 interface AppComponent : AndroidInjector<Bookshelf> {
