@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Card">
+
+    <LinearLayout style="@style/CardLayout">
+
+        <LinearLayout
+            android:id="@+id/item_book_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:minHeight="@dimen/view_size_huge"
+            android:orientation="vertical"
+            tools:background="@color/green_light">
+
+            <TextView
+                android:id="@+id/item_book_date"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:maxLines="1"
+                android:padding="@dimen/spacing_small"
+                android:textSize="@dimen/font_small"
+                tools:text="the date" />
+
+            <TextView
+                android:id="@+id/item_book_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/spacing_small"
+                android:textColor="@color/blue_dark"
+                android:textSize="@dimen/font_huge"
+                tools:text="the titlethe titlethe titlethe titlethe titlethe titlethe titlethe titlethe titlethe titlethe titlethe title" />
+
+            <TextView
+                android:id="@+id/item_book_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/spacing_small"
+                android:textSize="@dimen/font_large"
+                tools:text="the author the author" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/item_book_description"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/spacing_small"
+            android:textSize="@dimen/font_normal"
+            tools:text="the description description description description description description description description description description description description description description description description description description description description description" />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
